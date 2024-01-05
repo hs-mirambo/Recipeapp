@@ -1,0 +1,66 @@
+<!-- activity_recipe_details.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView to display the title of the recipe -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- TextView to display the type of the recipe (e.g., Breakfast, Lunch) -->
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- TextView to display the number of people the recipe serves -->
+    <TextView
+        android:id="@+id/servesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/typeTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- TextView to display the difficulty level of the recipe -->
+    <TextView
+        android:id="@+id/difficultyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/servesTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- TextView to display the list of ingredients needed for the recipe -->
+    <TextView
+        android:id="@+id/ingredientsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/difficultyTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- TextView to display the preparation steps for the recipe -->
+    <TextView
+        android:id="@+id/stepsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/ingredientsTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"/>
+</RelativeLayout>
